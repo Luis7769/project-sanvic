@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" href="./img/sanvic-logo-removebg-preview.png" type="image/png" >
+    <title>Sanvic</title>
+    <script src="https://kit.fontawesome.com/a894119165.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#">
+                <img src="./img/sanvic-logo-removebg-preview.png" alt="" width="40px">
+            </a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#innovacion">Innovaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Nuestros Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Nuestra Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="login-button">Login</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End Navbar-->
+
+    <!-- Hero section-->
+     <section id="inicio" class="hero-section">
+        <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+            <h1>Mineria y maquinaria industrial</h1>
+            <h2>Innovando el mantenimiento</h2>
+        </div>
+     </section>
+     <!-- End Hero section-->
+
+     <!--Service section-->
+     <section id="servicios" class="service-section">
+        <div class="container">
+            <h2 class="section-title text-white text-center">Soluciones Industriales</h2>
+            <div class="row justify-content-start container-card">
+                <!--Card 1-->
+                <div class="col-md-3 col-12 mb-4 mx-2 card-container">
+                    <div class="card py-3 text-center text-white">
+                        <img class="card-img" src="./img/reparacion.jpg">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="card-title">Reparación Especializada</h2>
+                            <p class="card-parrafo">Expertos en mantenimiento y reparación industrial. Calidad y precisión en cada proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 2-->
+                <div class="col-md-3 col-12 mb-4 mx-2 card-container">
+                    <div class="card py-3 text-center text-white">
+                        <img class="card-img" src="./img/mantenimiento.jpg">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="card-title">Mantenimiento Preventivo</h2>
+                            <p class="card-parrafo">Evita fallas y prolonga la vida útil de tus equipos con nuestros planes de mantenimiento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+                <div class="col-md-3 col-12 mb-4 mx-2 card-container">
+                    <a href="service.html">
+                        <div class="card py-3 text-center text-white">
+                            <img class="card-img" src="./img/restauracion.jpg">
+                            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                                <h2 class="card-title">Restauración Completa</h2>
+                                <p class="card-parrafo">Transformamos y restauramos por completo tus maquinarias</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+
+                <!--Card 4-->
+                <div class="col-md-3 col-12 mb-4 mx-2 card-container">
+                    <div class="card py-3 text-center text-white">
+                        <img class="card-img" src="./img/calidad-profesionalismo.jpg">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="card-title">Calidad y Profesionalismo</h2>
+                            <p class="card-parrafo">Contamos con equipo profesional altamente capacitado con una gran experiencia</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+        </div>
+     </section>
+     <!--End Service section-->
+     
+
+     <!--Section beneficios-->
+     <div class="home-section-benefits">
+        <div class="home-section-benefits__section-divider section-divider">
+            <h1 class="section-divider__title section-title content-container">
+                ¿Por qué elegirnos?
+            </h1>
+            <h3 class="section-divider__subtitle section-subtitle content-container">
+                Comprometidos con la excelencia en mantenimiento industrial.
+            </h3>
+    
+            <div class="home-section-benefits__cards content-container">
+                <div class="home-section-benefits__card">
+                    <div class="home-section-benefits__card-container">
+                        <img src="#" class="home-section-benefits__card-icon" alt="Experiencia">
+                        <div class="home-section-benefits__card-title">
+                            +10 años de experiencia
+                        </div>
+                    </div>
+                    <div class="home-section-benefits__card-description">
+                        Más de una década brindando soluciones efectivas en mantenimiento y reparación industrial.
+                    </div>
+                    <div class="home-section-benefits__card-link button-link">
+                        <a href="/nosotros">
+                            Conócenos
+                            <img src="/img/right-chevron.svg" alt="chevron">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="home-section-benefits__card">
+                    <div class="home-section-benefits__card-container">
+                        <img src="/img/icono-clientes.svg" class="home-section-benefits__card-icon" alt="Clientes">
+                        <div class="home-section-benefits__card-title">
+                            Clientes satisfechos
+                        </div>
+                    </div>
+                    <div class="home-section-benefits__card-description">
+                        Empresas líderes confían en nosotros para mantener sus equipos en óptimas condiciones.
+                    </div>
+                    <div class="home-section-benefits__card-link button-link">
+                        <a href="/casos-de-exito">
+                            Ver casos de éxito
+                            <img src="/img/right-chevron.svg" alt="chevron">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="home-section-benefits__card">
+                    <div class="home-section-benefits__card-container">
+                        <img src="/img/icono-soporte.svg" class="home-section-benefits__card-icon" alt="Soporte">
+                        <div class="home-section-benefits__card-title">
+                            Certificaciones
+                        </div>
+                    </div>
+                    <div class="home-section-benefits__card-description">
+                        Contamos con un equipo certificación Iso9091.
+                    </div>
+                    <div class="home-section-benefits__card-link button-link">
+                        <a href="/contacto">
+                            Ver mas
+                            <img src="/img/right-chevron.svg" alt="chevron">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Section beneficios-->
+
+
+
+    <section id="innovacion" class="innovation-section">
+        <div class="container text-center">
+            <h2 class="section-title">Innovación en Nuestra Operación</h2>
+            <p class="section-subtitle">
+                Mantente al día con nuestras últimas mejoras y avances en el sector.
+            </p>
+            <div class="row justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card py-3 text-center card-innovation">
+                        <img class="card-img-top" src="./img/nueva-tecnologia.jpg" alt="Nueva Tecnología">
+                        <div class="card-body">
+                            <h5 class="card-title">Implementación de Nuevas Tecnologías</h5>
+                            <p class="card-text">Estamos incorporando herramientas avanzadas para mejorar la eficiencia y calidad en nuestros servicios.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card py-3 text-center card-innovation">
+                        <img class="card-img-top" src="./img/calidad-profesionalismo.jpg" alt="Optimización de Procesos">
+                        <div class="card-body">
+                            <h5 class="card-title">Optimización de Procesos</h5>
+                            <p class="card-text">Hemos actualizado nuestros métodos de trabajo para ofrecerte resultados más rápidos y eficientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card py-3 text-center card-innovation">
+                        <img class="card-img-top" src="./img/nuevos-servicios.jpg" alt="Nuevos Servicios">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevos Servicios</h5>
+                            <p class="card-text">Descubre las nuevas soluciones que hemos agregado para seguir brindando un servicio completo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+     <!--Section Testimonios  -->
+     <section class="testimonials">
+        <h1 class="testimonials__title">Nuestros clientes confían en nosotros</h1>
+        <h3 class="testimonials__subtitle">Tu satisfacción es nuestra mejor garantía.</h3>
+    
+        <div class="testimonial-carousel">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <a href="#">
+                        <img src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197025.jpg" alt="Empresa 1" class="testimonial-logo">
+                    </a>
+                    <p class="testimonial-quote">"El mejor servicio para nuestra flota, flexibilidad y soporte excepcional."</p>
+                    <h4 class="testimonial-name">Juan Pérez</h4>
+                    <p class="testimonial-position">Gerente de Transporte</p>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <a href="#">
+                        <img src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197046.jpg" alt="Empresa 2" class="testimonial-logo">
+                    </a>
+                    <p class="testimonial-quote">"Fiabilidad total, nos han ayudado a optimizar rutas y costos."</p>
+                    <h4 class="testimonial-name">María Gómez</h4>
+                    <p class="testimonial-position">Directora Logística</p>
+                </div>
+            </div>
+        </div>
+    
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+    <!--Fin section Testimonios-->
+
+    <!--Section LogosCompañias-->
+    <section class="trusted-companies">
+        <div class="logos-container">
+            <a href="#" target="_blank"><img src="./img/logo-companies.jpg" alt="Sanitas"></a>
+            <a href="#" target="_blank"><img src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197046.jpg" alt="Accionas"></a>
+            <a href="#" target="_blank"><img src="./img/logo-companies.jpg" alt="Ferrovial"></a>
+            <a href="#" target="_blank"><img src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197046.jpg" alt="Salle"></a>
+            <a href="#" target="_blank"><img src="./img/logo-companies.jpg" alt="Seat"></a>
+            <a href="#" target="_blank"><img src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197046.jpg" alt="Audi"></a>
+            <a href="#" target="_blank"><img src="./img/logo-companies.jpg" alt="Bluespace"></a>
+            <a href="#" target="_blank"><img src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197046.jpg" alt="Repsol"></a>
+            <a href="#" target="_blank"><img src="./img/logo-companies.jpg" alt="Ethical"></a>
+        </div>
+    
+        <div class="cta-container">
+            <a href="contacto.html">
+                <button class="cta-button">Contáctanos</button>
+            </a>
+        </div>
+    </section>
+    
+    <!--Fin SectionLogosCompañias-->
+
+     
+     <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <a href="https://www.google.com/maps?q=Cam.+El+Lucero+432,+Santiago,+Chile" target="_blank">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Encuentranos</h4>
+                                    <span>Camino lucero 432 Lampa, Santiago, Chile</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <a href="https://wa.me/56978963189" target="_blank">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Llamanos</h4>
+                                    <span>978963189 - 229056904</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <a href="mailto:contacto@sanvic.cl">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Envianos un correo</h4>
+                                    <span>
+                                        contacto@sanvic.cl
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/logo-sanvic4.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Sanvic, empresa nacional en Quilicura, Chile, se ha destacado en la industria de mantenimiento, ofreciendo soluciones de alta calidad para diversas industrias. Con enfoque en eficiencia e innovación, ha logrado posicionarse como un referente en el sector.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Siguenos</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <br>
+                                <h3>Links de interés</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#inicio" title="Página de inicio - Sanvic">Inicio</a></li>
+                                <li><a href="#servicios" title="Descubre nuestros servicios especializados">Servicios</a></li>
+                                <li><a href="#" title="Mira nuestros proyectos y innovaciones">Innovaciones</a></li>
+                                <li><a href="#" title="Conoce quienes confian en nosotros">Nuestros Clientes</a></li>
+                                <li><a href="#" title="Conoce más sobre nuestra empresa y equipo">Nuestra Historia</a></li>
+                                <li><a href="#" title="Contáctanos para más información">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2025, Todos los derechos reservados <a href="https://www.webvisionservice.com">WebVisionService</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
